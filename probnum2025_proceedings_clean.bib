@@ -23,7 +23,7 @@
   title={Fixing the Pitfalls of Probabilistic Time-Series Forecasting Evaluation by Kernel Quadrature},
   author={Adachi, Masaki and Fujisawa, Masahiro and Osborne, Michael A},
   pages={1--11},
-  abstract={Despite the significance of probabilistic time-series forecasting models, their evaluation metrics often involve intractable integrations. The most widely used metric, the continuous ranked probability score (CRPS), is a strictly proper scoring function; however, its computation requires approximation. We found that popular CRPS estimators—specifically, the quantile-based estimator implemented in the widely used GluonTS library and the probability-weighted moment approximation—both exhibit inherent estimation biases. These biases lead to crude approximations, potentially resulting in improper rankings of forecasting model performance. To address this, we introduced a kernel quadrature approach that leverages an unbiased CRPS estimator and employs cubature construction for scalable computation. Empirically, our approach consistently outperforms the two widely used CRPS estimators.},
+  abstract={Despite the significance of probabilistic time-series forecasting models, their evaluation metrics often involve intractable integrations. The most widely used metric, the continuous ranked probability score (CRPS), is a strictly proper scoring function; however, its computation requires approximation. We found that popular CRPS estimators---specifically, the quantile-based estimator implemented in the widely used GluonTS library and the probability-weighted moment approximation---both exhibit inherent estimation biases. These biases lead to crude approximations, potentially resulting in improper rankings of forecasting model performance. To address this, we introduced a kernel quadrature approach that leverages an unbiased CRPS estimator and employs cubature construction for scalable computation. Empirically, our approach consistently outperforms the two widely used CRPS estimators.},
   year={2025},
   openreview={h2Imm09gac}
 }
@@ -66,17 +66,17 @@
 }
 
 @inproceedings{kouw25,
-  title={{B}ayesian autoregression to optimize temporal {M}atérn kernel {G}aussian process hyperparameters},
+  title={{B}ayesian autoregression to optimize temporal {M}at\'{e}rn kernel {G}aussian process hyperparameters},
   author={Kouw, Wouter M.},
   pages={122--130},
-  abstract={Gaussian processes are important models in the field of probabilistic numerics. We present a procedure for optimizing Matérn kernel temporal Gaussian processes with respect to the kernel covariance function's hyperparameters. It is based on casting the optimization problem as a recursive Bayesian estimation procedure for the parameters of an autoregressive model. We demonstrate that the proposed procedure outperforms maximizing the marginal likelihood as well as Hamiltonian Monte Carlo sampling, both in terms of runtime and ultimate root mean square error in Gaussian process regression.},
+  abstract={Gaussian processes are important models in the field of probabilistic numerics. We present a procedure for optimizing Mat\'{e}rn kernel temporal Gaussian processes with respect to the kernel covariance function's hyperparameters. It is based on casting the optimization problem as a recursive Bayesian estimation procedure for the parameters of an autoregressive model. We demonstrate that the proposed procedure outperforms maximizing the marginal likelihood as well as Hamiltonian Monte Carlo sampling, both in terms of runtime and ultimate root mean square error in Gaussian process regression.},
   year={2025},
   openreview={UbjB3VGBzi}
 }
 
 @inproceedings{krmer25,
   title={Adaptive Probabilistic ODE Solvers Without Adaptive Memory Requirements},
-  author={Krämer, Nicholas},
+  author={Kr\"{a}mer, Nicholas},
   pages={12--24},
   abstract={Despite substantial progress in recent years, probabilistic solvers with adaptive step sizes can still not solve memory-demanding differential equations$-$unless we care only about a single point in time (which is far too restrictive; we want the whole time series). Counterintuitively, the culprit is the adaptivity itself: Its unpredictable memory demands easily exceed our machine's capabilities, making our simulations fail unexpectedly and without warning. Still, dropping adaptivity would abandon years of progress, which can't be the answer. In this work, we solve this conundrum. We develop an adaptive probabilistic solver with fixed memory demands building on recent developments in robust state estimation. Switching to our method (i) eliminates memory issues for long time series, (ii) accelerates simulations by orders of magnitude through unlocking just-in-time compilation, and (iii) makes adaptive probabilistic solvers compatible with scientific computing in JAX.},
   year={2025},

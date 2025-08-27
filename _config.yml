@@ -1,0 +1,96 @@
+---
+booktitle: Proceedings of the First International Conference on Probabilistic Numerics
+shortname: ProbNum
+volume: '271'
+year: '2025'
+start: &1 2025-09-01
+end: 2025-09-03
+published: 2025-08-27
+conference_number: '1'
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: ProbNum-2025
+month: 0
+cycles: false
+bibtex_editor: Kanagawa, Motonobu and Cockayne, Jon and Gessner, Alexandra and Hennig,
+  Philipp
+editor:
+- given: Motonobu
+  family: Kanagawa
+- given: Jon
+  family: Cockayne
+- given: Alexandra
+  family: Gessner
+- given: Philipp
+  family: Hennig
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the First International Conference on Probabilistic Numerics
+    Held in EURECOM, Sophia Antipolis, France on 01-03 September 2025
+
+  Published as Volume 271 by the Proceedings of Machine Learning Research on 27 August 2025.
+
+  Volume Edited by:
+    Motonobu Kanagawa
+    Jon Cockayne
+    Alexandra Gessner
+    Philipp Hennig
+
+  Series Editors:
+    Neil D. Lawrence
+date_str: 01--03 Sep
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/v271"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlresearch/jekyll-theme
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: v271
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Volume
+volume_dir: v271
+email: ''
+conference:
+  name: First International Conference on Probabilistic Numerics
+  url: https://probnum25.github.io
+  location: EURECOM, Sophia Antipolis, France
+  dates:
+  - *1
+  - 2025-09-02
+  - 2025-09-03
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+link_visibility:
+  openreview: true
+  pdf: true
+  supplementary: true
+  software: true
+  video: true
+  arxiv: true
+  doi: true
+  website: true
+orig_bibfile: probnum2025_proceedings_clean.bib
+# Site settings
+# Original source:  probnum2025_proceedings_clean.bib
