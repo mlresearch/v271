@@ -3,7 +3,7 @@ booktitle: Proceedings of the First International Conference on Probabilistic Nu
 shortname: ProbNum
 volume: '271'
 year: '2025'
-start: &1 2025-09-01
+start: 2025-09-01
 end: 2025-09-03
 published: 2025-08-27
 conference_number: '1'
@@ -76,7 +76,7 @@ conference:
   url: https://probnum25.github.io
   location: EURECOM, Sophia Antipolis, France
   dates:
-  - *1
+  - 2025-09-01
   - 2025-09-02
   - 2025-09-03
 analytics:
